@@ -19,7 +19,7 @@ export default function App() {
       </header>
 
       <main>
-        <ShowDetails key={selectedShow?.name} show={selectedShow} />
+        <ShowDetails show={selectedShow} />
       </main>
     </>
   );
